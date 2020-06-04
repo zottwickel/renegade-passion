@@ -4,16 +4,22 @@ import SEO from "../components/seo"
 import Hero from "../components/Utils/Hero"
 import img from "../images/pic1.jpg"
 import styled from "styled-components"
+import HeroButton from "../components/Utils/HeroButton"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero
       title="renegade passion"
-      subtitle="This is a tagline for what you want the homepage banner to say."
+      subtitle="Empowering and caring for sex trafficking victims."
       img={img}
       home={true}
-    ></Hero>
+    >
+      <AniLink fade to="/blog">
+        <HeroButton>Blog</HeroButton>
+      </AniLink>
+    </Hero>
     <PartnersWrapper>
       <h1>Our Partners</h1>
       <div className="p-c">
@@ -94,6 +100,11 @@ const PartnersWrapper = styled.section`
     max-width: 320px;
     background: white;
     margin: 1rem;
+    box-shadow: 0 0 10px black;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      box-shadow: 0 0 10px red;
+    }
   }
 `
 const AboutWrapper = styled.section`
@@ -109,6 +120,7 @@ const AboutWrapper = styled.section`
   padding: 2rem;
   text-align: center;
   border-right: 2px solid red;
+  box-shadow: 0 0 10px black;
   h1 {
     margin: 2rem;
     font-size: 3rem;
