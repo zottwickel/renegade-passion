@@ -125,4 +125,8 @@ const AboutWrapper = styled.section`
     margin: 2rem;
     font-size: 3rem;
   }
+  @media (min-width: 768px) {
+    width: 60%;
+    margin: 0 auto;
+  }
 `
