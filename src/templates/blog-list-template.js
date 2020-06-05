@@ -6,6 +6,7 @@ import Hero from "../components/Utils/Hero"
 import img from "../images/blog1.jpg"
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { FaHashtag } from "react-icons/fa"
 
 const Blog = props => {
   const { currentPage, numPages } = props.pageContext
@@ -30,7 +31,7 @@ const Blog = props => {
             return (
               <PostCard key={node.id}>
                 <AniLink className="c-l" fade to={`blog/${node.slug}`}>
-                  <h2>{node.title}</h2>
+                  <h2><FaHashtag /> {node.title}</h2>
                 </AniLink>
                 <p>{node.published}</p>
               </PostCard>

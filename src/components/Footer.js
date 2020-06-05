@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from "styled-components"
 import { FaGithub, FaLinkedin, FaEnvelope, FaPalette } from "react-icons/fa"
+import Bar from "./Utils/Bar"
 
 const Footer = () => {
   return (
     <FooterWrapper>
-      <div className="bar"></div>
+      <Bar />
       <h1>Website by Scott McKell</h1>
       <div className="icons">
         <a
@@ -47,12 +48,6 @@ const FooterWrapper = styled.footer`
   text-align: center;
   h1 {
     font-size: 1.5rem;
-  }
-  .bar {
-    height: 1px;
-    background: white;
-    width: 60%;
-    margin: 1rem auto;
   }
   .icon {
     font-size: 1.5rem;

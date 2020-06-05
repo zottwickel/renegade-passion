@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
+import Bar from "../components/Utils/Bar"
 
 const Article = ({ data }) => {
   const {
@@ -18,7 +19,7 @@ const Article = ({ data }) => {
       <BlogContainer>
         <h1>{title}</h1>
         <h2>Published at : {published}</h2>
-        <div className="bar"></div>
+        <Bar />
         <article className="t">
           {documentToReactComponents(json)}
         </article>
@@ -59,12 +60,6 @@ const BlogContainer = styled.section`
   h2 {
     text-align: center;
     font-size: 1.5rem;
-  }
-  .bar {
-    height: 1px;
-    background: white;
-    width: 60%;
-    margin: 1rem auto;
   }
 `
 

@@ -40,14 +40,14 @@ const Navbar = () => {
           <FaFacebook className="icon facebook-icon" />
         </a>
         <a
-          href="https://linkedin.com/in/scott-mckell/"
+          href="https://www.linkedin.com/in/kayla-bettles-354882197/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin className="icon linkedin-icon" />
         </a>
         <a
-          href="mailto:scott.g.mckell@gmail.com"
+          href="mailto:kaylabettles@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >

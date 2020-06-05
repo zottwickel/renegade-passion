@@ -1,12 +1,19 @@
 import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/Utils/Hero"
+import img from "../images/gallery1.jpg"
 
 const gallery = () => {
   return (
     <Layout>
       <SEO title="Gallery" />
-      <h1>Hi from Gallery</h1>
+      <Hero
+        title="gallery"
+        subtitle="Pictures and videos coming soon!"
+        img={img}
+        home={false}
+        ></Hero>
     </Layout>
   )
 }
