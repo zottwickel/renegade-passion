@@ -18,7 +18,7 @@ export default Chev
 
 const Return = styled.div`
   border-radius: 50%;
-  background: rgb(189, 189, 189, 0.5);
+  background: rgba(189, 189, 189, 0.5);
   color: black;
   position: fixed;
   bottom: 1rem;

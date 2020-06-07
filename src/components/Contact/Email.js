@@ -34,7 +34,7 @@ const EmailWrapper = styled.div`
   textarea,
   input {
     width: 80%;
-    background: rgb(189, 189, 189, 1);
+    background: rgba(189, 189, 189, 1);
     font-size: 1.5rem;
     padding: 0.5rem;
     border-radius: 2px;

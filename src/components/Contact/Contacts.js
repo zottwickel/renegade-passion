@@ -51,7 +51,7 @@ const ContactsWrapper = styled.div`
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     &:hover {
-      color: rgb(189, 189, 189, 1);
+      color: rgba(189, 189, 189, 1);
     }
   }
 `
