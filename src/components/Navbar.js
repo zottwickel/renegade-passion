@@ -107,7 +107,7 @@ const NavWrapper = styled.nav`
     transition: all 0.3s ease-in-out;
   }
   .links-open {
-    height: 180px;
+    height: 224px;
   }
   .links-closed {
     height: 0px;

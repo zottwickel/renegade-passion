@@ -15,4 +15,8 @@ export default [
     path: '/shop',
     text: 'Shop'
   },
+  {
+    path: '/contact',
+    text: 'Contact'
+  },
 ]
