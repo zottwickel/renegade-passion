@@ -22,7 +22,7 @@ const HeroWrapper = styled.header`
   justify-content: center;
   align-items: center;
   .banner {
-    background-color: rgb(189, 189, 189, 0.8);
+    background: rgb(189, 189, 189, 0.8);
     color: black;
     padding: 2rem;
     text-align: center;
