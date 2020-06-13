@@ -23,7 +23,7 @@ const IndexPage = () => (
     <PartnersWrapper>
       <h1>Our Partners</h1>
       <div className="p-c">
-        <a
+        {/* <a
           className="p-l"
           href="https://soap2hopeut.com/"
           target="_blank"
@@ -34,7 +34,7 @@ const IndexPage = () => (
             src={require("../images/soap2hopelogo.jpg")}
             alt="soap 2 hope logo"
           />
-        </a>
+        </a> */}
         <a
           className="p-l"
           href="http://dontbepimped.com/"
