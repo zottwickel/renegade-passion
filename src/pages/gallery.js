@@ -63,15 +63,6 @@ const Gallery = () => {
       fileName: "IMG_1552",
     },
     {
-      fileName: "IMG_1565",
-    },
-    {
-      fileName: "IMG_1578",
-    },
-    {
-      fileName: "IMG_1594",
-    },
-    {
       fileName: "IMG_1600",
     },
     {
