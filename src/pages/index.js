@@ -47,6 +47,18 @@ const IndexPage = () => (
             alt="don't be pimped logo"
           />
         </a>
+        <a
+          className="p-l"
+          href="https://www.fit2recover.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="p-ftr"
+            src={require("../images/FTR.png")}
+            alt="fit to recover logo"
+          />
+        </a>
       </div>
       <h1>My Story</h1>
       <iframe
@@ -56,7 +68,8 @@ const IndexPage = () => (
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-      ></iframe><br />
+      ></iframe>
+      <br />
       <iframe
         title="story2"
         className="v"
@@ -64,7 +77,8 @@ const IndexPage = () => (
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-      ></iframe><br />
+      ></iframe>
+      <br />
       <iframe
         title="story3"
         className="v"
@@ -123,6 +137,18 @@ const PartnersWrapper = styled.section`
     border-radius: 2px;
     height: 160px;
     max-width: 320px;
+    background: white;
+    margin: 1rem;
+    box-shadow: 0 0 10px black;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      box-shadow: 0 0 10px red;
+    }
+  }
+  .p-ftr {
+    border-radius: 2px;
+    height: auto;
+    width: 320px;
     background: white;
     margin: 1rem;
     box-shadow: 0 0 10px black;
