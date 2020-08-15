@@ -95,7 +95,7 @@ const IndexPage = () => (
         bring together organizations so that when a survivor wants out, she can
         get out. To provide love and kindness to those who are still out there.
       </p>
-      <h1>About us</h1>
+      {/* <h1>About us</h1>
       <p>
         Lorem ipsum dolor sit amet, scaevola voluptatum pro in, eros brute
         evertitur vix at, ius posse semper ea. Labores voluptatibus ut sed, mea
@@ -114,7 +114,7 @@ const IndexPage = () => (
         fuisset. Ea per simul lucilius repudiare. Odio aliquid ei his, vero
         legere reformidans an vim. Per in percipit expetendis, pri singulis
         assueverit te, duis nonumes intellegat ei nec.
-      </p>
+      </p> */}
     </AboutWrapper>
   </Layout>
 )
