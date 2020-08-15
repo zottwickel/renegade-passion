@@ -77,7 +77,7 @@ const shop = () => {
               struggled with addictions and situations that take over all of our
               freedoms. Also available in teal.
             </p>
-            <h2>$49.99 + Shipping</h2>
+            <h2>$24.99 + Shipping</h2>
           </div>
         </div>
       </StyledShop>
