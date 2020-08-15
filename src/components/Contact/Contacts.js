@@ -8,7 +8,7 @@ const Contacts = () => {
         <h1>Contact Info</h1>
         <p>
           Contact Kayla Bettles should you need any support. Email is the best
-          route, however she is available at the below number for texts/calls.
+          route, however she is available at the number below for texts/calls.
         </p>
         <h2>Kayla Bettles:</h2>
         <h3>
@@ -17,6 +17,11 @@ const Contacts = () => {
         <h3>
           Email:{" "}
           <a href="mailto:kaylabettles@gmail.com">kaylabettles@gmail.com</a>
+        </h3>
+        <h2>National Human Trafficking Hotline:</h2>
+        <h3>
+          Phone: <a href="tel:+18883737888">888-373-7888</a><br />
+          Website: <a href="https://www.humantraffickinghotline.org">humantraffickinghotline.org</a>
         </h3>
       </div>
     </ContactsWrapper>
@@ -37,14 +42,11 @@ const ContactsWrapper = styled.div`
   }
   h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin: 1rem auto;
   }
   h3 {
     font-size: 1.5rem;
     margin: 0.25rem;
-  }
-  p {
-    margin-bottom: 1rem;
   }
   a {
     color: red;

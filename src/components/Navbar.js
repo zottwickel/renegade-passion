@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import { FaChevronDown, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa"
+import { FaChevronDown, FaFacebook, FaInstagram, FaEnvelope } from "react-icons/fa"
 import links from "../constants/links"
 
 const Navbar = () => {
@@ -33,18 +33,18 @@ const Navbar = () => {
       </ul>
       <div className="icons">
         <a
+          href="https://www.instagram.com/bettles.kayla/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="icon insta-icon" />
+        </a>
+        <a
           href="https://www.facebook.com/kayla.kayla.5"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaFacebook className="icon facebook-icon" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/kayla-bettles-354882197/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin className="icon linkedin-icon" />
         </a>
         <a
           href="mailto:kaylabettles@gmail.com"
@@ -78,6 +78,19 @@ const NavWrapper = styled.nav`
       width: 10rem;
       justify-content: space-around;
     }
+    .logo {
+      font-size: 2rem !important;
+    }
+  }
+  @media (min-width: 900px) {
+    .logo {
+      font-size: 3rem !important;
+    }
+  }
+  @media (min-width: 1000px) {
+    .logo {
+      font-size: 3.5rem !important;
+    }
   }
   .header {
     padding: 0.4rem 1rem;
@@ -88,7 +101,7 @@ const NavWrapper = styled.nav`
   .logo {
     font-family: 'Damion';
     color: white;
-    font-size: 2rem;
+    font-size: 10vw;
     text-decoration: none;
   }
   .sublogo {
@@ -107,7 +120,7 @@ const NavWrapper = styled.nav`
     transition: all 0.3s ease-in-out;
   }
   .links-open {
-    height: 224px;
+    height: 180px;
   }
   .links-closed {
     height: 0px;
@@ -139,8 +152,8 @@ const NavWrapper = styled.nav`
   .facebook-icon {
     color: #3B5998;
   }
-  .linkedin-icon {
-    color: #0e76a8;
+  .insta-icon {
+    color: #dd2a7b;
   }
   .email-icon {
     color: #D44638;
