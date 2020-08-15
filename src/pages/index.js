@@ -48,6 +48,31 @@ const IndexPage = () => (
           />
         </a>
       </div>
+      <h1>My Story</h1>
+      <iframe
+        title="story1"
+        className="v"
+        src="https://www.youtube.com/embed/ZAyh1-btvhU"
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe><br />
+      <iframe
+        title="story2"
+        className="v"
+        src="https://www.youtube.com/embed/Dwbs80Dz8CA"
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe><br />
+      <iframe
+        title="story3"
+        className="v"
+        src="https://www.youtube.com/embed/B9gm4Kbv4jA"
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
     </PartnersWrapper>
     <AboutWrapper>
       <h1>Our Mission</h1>
@@ -104,6 +129,18 @@ const PartnersWrapper = styled.section`
     transition: all 0.3s ease-in-out;
     &:hover {
       box-shadow: 0 0 10px red;
+    }
+  }
+  .v {
+    width: calc(100vw - 4rem);
+    height: calc(60vw - 4rem);
+    margin: 1rem auto;
+  }
+  @media (min-width: 768px) {
+    .v {
+      display: block;
+      width: calc(50vw - 4rem);
+      height: calc(30vw - 4rem);
     }
   }
 `
