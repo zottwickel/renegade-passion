@@ -76,7 +76,7 @@ const IndexPage = () => (
         >
           <img
             className="p-ftr"
-            src={require("../images/FTR.png")}
+            src={require("../images/ftrlogo.jpg")}
             alt="fit to recover logo"
           />
         </a>
@@ -164,6 +164,7 @@ const PartnersWrapper = styled.section`
     justify-content: space-around;
   }
   .p-i {
+    padding: 1rem;
     border-radius: 2px;
     height: 160px;
     max-width: 320px;
@@ -176,6 +177,7 @@ const PartnersWrapper = styled.section`
     }
   }
   .p-ftr {
+    padding: 1rem;
     border-radius: 2px;
     height: auto;
     width: 320px;
