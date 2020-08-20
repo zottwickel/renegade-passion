@@ -21,6 +21,27 @@ const IndexPage = () => (
       </AniLink>
     </Hero>
     <PartnersWrapper>
+      <form
+        action="https://www.paypal.com/cgi-bin/webscr"
+        method="post"
+        target="_top"
+      >
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="JRXNE9D7FABEA" />
+        <input
+          className="d-b"
+          type="image"
+          src={require("../images/paypal-donate-button.png")}
+          border="0"
+          name="submit"
+          title="PayPal - The safer, easier way to pay online!"
+          alt="Donate with PayPal button"
+        />
+        <img
+          alt="donate button"
+          src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+        />
+      </form>
       <h1>Our Partners</h1>
       <div className="p-c">
         {/* <a
@@ -128,6 +149,15 @@ const PartnersWrapper = styled.section`
     text-align: center;
     font-size: 3rem;
   }
+  form {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .d-b {
+    width: 40vw;
+  }
   .p-c {
     display: flex;
     flex-wrap: wrap;
@@ -162,11 +192,15 @@ const PartnersWrapper = styled.section`
     height: calc(60vw - 4rem);
     margin: 1rem auto;
   }
+  
   @media (min-width: 768px) {
     .v {
       display: block;
       width: calc(50vw - 4rem);
       height: calc(30vw - 4rem);
+    }
+    .d-b {
+      width: 20vw;
     }
   }
 `
