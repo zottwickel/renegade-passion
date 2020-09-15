@@ -221,7 +221,7 @@ const AboutWrapper = styled.section`
   border-right: 2px solid red;
   box-shadow: 0 0 10px black;
   h1 {
-    margin: 2rem;
+    margin-bottom: 2rem;
     font-size: 3rem;
   }
   @media (min-width: 768px) {
