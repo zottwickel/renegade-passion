@@ -9,6 +9,12 @@ const Gallery = () => {
   const [activePic, setPic] = useState(0)
   const imgArr = [
     {
+      fileName: "IMG_1391",
+    },
+    {
+      fileName: "IMG_1392",
+    },
+    {
       fileName: "IMG_1393",
     },
     {

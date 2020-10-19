@@ -17,7 +17,25 @@ const shop = () => {
         home={false}
       ></Hero>
       <StyledShop>
-        <h1>Free AF and Don't Be Pimped apparel is now available at Vasa and Fit to Recover!</h1><br />
+        <h2>
+          Free AF and Don't Be Pimped apparel is now available at the Sandy Vasa (
+            <a 
+              href="https://www.google.com/maps/place/VASA+Fitness/@40.6065313,-111.856628,17z/data=!3m2!4b1!5s0x8752629f9b6cf615:0xc77507fc361f85c3!4m5!3m4!1s0x875262a1d75edd5b:0x7ee20a8cff9cc981!8m2!3d40.6065313!4d-111.854434"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              7990 1300 E, Sandy, UT 84094
+            </a>
+            ) and Fit to Recover (
+            <a 
+              href="https://www.google.com/maps/place/Fit+to+Recover/@40.7392101,-111.9160117,17z/data=!3m1!4b1!4m5!3m4!1s0x8752f4da86ddc03f:0x24d4219acbd712ad!8m2!3d40.7392101!4d-111.913823"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              789 W 1390 S, Salt Lake City, UT 84104
+            </a>
+            )!
+        </h2><br />
         <Bar />
         <h1>Head over to the contact page to buy!</h1>
         <p>
@@ -90,6 +108,9 @@ const shop = () => {
 
 const StyledShop = styled.section`
   padding: 1rem;
+  h2 {
+    font-size: 1rem;
+  }
   img {
     height: 200px;
     margin-right: 1rem;
@@ -103,6 +124,10 @@ const StyledShop = styled.section`
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+  }
+  a {
+    text-decoration: none;
+    color: red;
   }
   @media (min-width: 768px) {
     img { 
