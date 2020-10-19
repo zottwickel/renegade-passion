@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import img from "../images/shop1.jpg"
 import Hero from "../components/Utils/Hero"
 import styled from "styled-components"
+import Bar from '../components/Utils/Bar'
 
 const shop = () => {
   return (
@@ -16,6 +17,8 @@ const shop = () => {
         home={false}
       ></Hero>
       <StyledShop>
+        <h1>Free AF and Don't Be Pimped apparel is now available at Vasa and Fit to Recover!</h1><br />
+        <Bar />
         <h1>Head over to the contact page to buy!</h1>
         <p>
           Just message us with the item, quantity, size, and your address, and

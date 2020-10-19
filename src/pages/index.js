@@ -42,6 +42,14 @@ const IndexPage = () => (
           src="https://www.paypal.com/en_US/i/scr/pixel.gif"
         />
       </form>
+      <h2>Donate to Kayla's PTSD Treatment here at GoFundMe</h2>
+      <a 
+        href="https://www.gofundme.com/f/ptsd-treatment-for-a-survivor?utm_medium=sms&utm_source=customer&utm_campaign=p_na+share-sheet&rcid=d5f51d6b06dc41ab870d52fae4991ffb"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img className="gofundme" src={require('../images/gofundme.png')} />
+      </a>
       <h1>Our Partners</h1>
       <div className="p-c">
         {/* <a
@@ -149,6 +157,9 @@ const PartnersWrapper = styled.section`
     text-align: center;
     font-size: 3rem;
   }
+  h2 {
+    text-align: center;
+  }
   form {
     display: flex;
     margin-bottom: 2rem;
@@ -193,6 +204,13 @@ const PartnersWrapper = styled.section`
     width: calc(100vw - 4rem);
     height: calc(60vw - 4rem);
     margin: 1rem auto;
+  }
+
+  .gofundme {
+    margin: 1rem auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
   }
   
   @media (min-width: 768px) {
