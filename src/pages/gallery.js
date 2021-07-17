@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/Utils/Hero"
@@ -6,7 +6,6 @@ import img from "../images/gallery1.jpg"
 import styled from "styled-components"
 
 const Gallery = () => {
-  const [activePic, setPic] = useState(0)
   const imgArr = [
     {
       fileName: "IMG_1391",

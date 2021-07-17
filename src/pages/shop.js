@@ -44,6 +44,14 @@ const shop = () => {
           Lake City area, we will personally deliver your order to you. Some
           additional charges may apply.
         </p>
+        <Bar />
+        <h2>Ask us about our subscription</h2>
+        <p>
+          Sign up to receive one of our high-quality items each month. Pay one
+          fee and recieve 25 items delivered to you! Note: items may vary in price
+          and may require additional payments.
+        </p>
+        <Bar />
         <div className="product">
           <img
             src={require("../images/apparel/IMG_1428.jpg")}
